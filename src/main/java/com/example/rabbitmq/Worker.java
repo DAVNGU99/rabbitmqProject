@@ -9,7 +9,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.concurrent.CountDownLatch;
 
 public class Worker {
-
+    //mvn -q compile exec:java -Dexec.mainClass=com.example.rabbitmq.Worker
     // The queue both workers and publishers share - same name = same queue
     private static final String TASK_QUEUE_NAME = "task_queue";
 

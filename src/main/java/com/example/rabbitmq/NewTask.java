@@ -11,6 +11,11 @@ import java.util.concurrent.TimeUnit;
 
 public class NewTask {
 
+//    mvn -q compile exec:java -Dexec.mainClass=com.example.rabbitmq.NewTask -Dexec.args="First task..."
+//    mvn -q compile exec:java -Dexec.mainClass=com.example.rabbitmq.NewTask -Dexec.args="Second task......"
+//    mvn -q compile exec:java -Dexec.mainClass=com.example.rabbitmq.NewTask -Dexec.args="Third task."
+//    mvn -q compile exec:java -Dexec.mainClass=com.example.rabbitmq.NewTask -Dexec.args="Fourth task...."
+
     private static final String TASK_QUEUE_NAME = "task_queue";
 
     public static void main(String[] args) throws Exception {
